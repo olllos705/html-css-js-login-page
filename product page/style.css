@@ -1,0 +1,274 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+ display:flex;
+    justify-content: space-between;
+
+}
+.PRODUCT{
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper1{
+    border: none;
+    outline: none;
+    border: 3px solid white;
+    background: transparent;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 100%;
+    outline: none;
+    position: relative;
+}
+.img1{
+    backdrop-filter: blur(50px);
+    background-color:transparent;
+    border: none;
+    outline: none;
+    width: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+;
+}
+.wrapper2{
+    border:none;
+    outline:none;
+    border: 3px solid white;
+    background: transparent;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    height: 100%;
+    margin-left: 20px;
+    outline: none;
+}
+.wrapper3{
+    border:none;
+    outline: none;
+    border: 3px solid white;
+    background: transparent;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;;
+    height: 100%;
+}
+.wrapper4{
+    border: none;
+    outline:none;
+    border: 3px solid white;
+    background: transparent;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    height: 100%;
+    margin-left: 20px;
+}
+ .phone{
+    border: none;
+    outline:none;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-family:cursive;
+    text-decoration: none;
+    cursor:pointer;
+    translate: transition .5s ease;
+    font-size: 30px;
+}
+.phone:hover{
+    text-decoration: underline;
+    color:red;
+}
+.watch{
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: cursive;
+    cursor: pointer;
+    font-size: 30px;
+    border: none;
+    outline:none;
+
+}
+.watch:hover{
+    text-decoration: underline;
+    color: red;
+}
+.earpod{
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+    cursor:pointer;
+    font-family: cursive;
+    border: none;
+    outline:none;
+}
+.earpeice{
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+    cursor:pointer;
+    font-family: cursive;
+    border:none;
+    outline:none;
+}
+.text{
+  margin-top: 0px;
+  font-weight: lighter;
+  font-size: 20px;
+  color:red;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text2{
+  margin-top: 0px;
+  font-weight: lighter;
+  font-size: 20px;
+  color:red;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+.earpeice:hover{
+    color: red;
+    text-decoration: underline;
+}
+.earpod:hover{
+    color:red;
+    text-decoration: underline;
+}
+.text3{
+    font-weight: lighter;
+    font-size: 20px;
+    color:red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.text4{
+    font-weight: lighter;
+  font-size: 20px;
+  color:red;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.no1{
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.no2{
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.no3{
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.no4{
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.buy1{
+margin-top:20px ;
+width:100%;
+height: 8.5%;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+background-color: blue;
+color:white;
+backdrop-filter: transparent;
+ padding-top:0%;
+align-items: end;
+outline: none;
+border: none;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 600;
+cursor: pointer;
+transition: .5s ease;
+}
+.buy1:hover{
+    background-color: black;
+}
+.buy2{
+margin-top:20px ;
+width:100%;
+height: 8.5%;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+background-color: red;
+color:white;
+backdrop-filter: transparent;
+ padding-top:0%;
+align-items: end;
+outline: none;
+border: none;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 600;
+cursor: pointer;
+transition: .5s ease;
+}
+.buy2:hover{
+    background-color: black;
+}
+.buy3{
+margin-top:20px ;
+width:100%;
+height: 8.5%;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+background-color: green;
+color:white;
+backdrop-filter: transparent;
+ padding-top:0%;
+align-items: end;
+outline: none;
+border: none;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 600;
+cursor: pointer;
+transition: .5s ease;
+}
+.buy3:hover{
+    background-color: black;
+}
+.buy4{
+    margin-top:20px ;
+width:100%;
+height: 8.5%;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+background-color: yellow;
+color:white;
+backdrop-filter: transparent;
+ padding-top:0%;
+align-items: end;
+outline: none;
+border: none;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 600;
+cursor: pointer;
+transition: .5s ease;
+}
+.buy4:hover{
+    background-color: black;
+}
